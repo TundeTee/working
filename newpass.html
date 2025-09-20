@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+        <div class="word-overlay">
+  <marquee loop="-1" scrollamount="18">Welcome to Elysian Fashion & luxury Collection...where Your  Satisfactory is <span>Guarantee!!!!!</span></marquee>
+  <header>
+        <div class="logo">
+            <img src="image/Elysian-white.png" alt="">
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="nav">
+                <ul class="nav-bar">
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="register.html">Join Us</a></li>
+   <i class="ri-menu-unfold-line cancel" ></i>
+</ul>
+            </div>
+
+             <div class="search" id="search">
+                <input type="text" placeholder="Search..."><i class="ri-search-2-line search-bar"></i>
+            </div>
+             <div class="search-full" id="search-full">
+                <input type="text" placeholder="Search..."><i class="ri-search-2-line search-bar"></i>
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <a href="#" id="bar-search" class="bar-search"><i class="ri-search-2-line"></i></a>
+              <a href="#"id="bar-shop" class="bar-shop"><i class="ri-shopping-cart-line"></i><span class="shop-number" id="shop-number"></span></a>
+                <a href="login.html" id="
+                log-bar" class="log-bar"><i class="ri-user-add-line"></i></a>
+                <i class="ri-menu-fold-line menu" ></i>
+            </div>
+            <div class="cart-detail" id="cart-detail">
+<i class="ri-close-large-line delete"></i>
+<h3 class="head-cart">No Cart</h3>
+<div class="error">
+    <p>login to view ur Cart <a href="login.html">Click here to login</a></p>
+</div>
+
+<div class="total-product" id="total-product">
+    <p>TOTAL = <span class="result"> $00.00</span></p>
+</div>
+            </div>
+    </header>
+ <form id="reset-form">
+    <h2>Reset Password</h2>
+    <input type="password" id="reset-password" placeholder="New Password" required>
+    <input type="password" id="reset-confirm" placeholder="Confirm Password" required>
+    <button type="submit" id="reset-btn">Save</button>
+    <p id="reset-error"></p>
+    <p id="reset-success"></p>
+     <div class="homeagain"><a href="welcome.html">Back Home</a></div>
+  </form>
+  </form>
+<script src="app.js"></script>
+<script src="login.js"></script>
+<script src="reg.js"></script>
+<script src="reset.js"></script>
+
+</body>
+</html>
